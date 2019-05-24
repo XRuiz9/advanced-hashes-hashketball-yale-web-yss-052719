@@ -1,3 +1,5 @@
+require 'pry' #include
+
 def game_hash
   hash = {
     home: {
@@ -321,3 +323,5 @@ def long_name_steals_a_ton?
     false
   end
 end
+
+puts num_points_scored("Brendan Haywood")
